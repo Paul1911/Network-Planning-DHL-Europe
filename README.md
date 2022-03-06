@@ -1,4 +1,13 @@
-# Project Modelling Ideas
+# Network Planning DHL Europe
+
+This is a challenge from my Bachelors of International Aviation Management from 2017. The goal was to develop a flight plan for DHL out of their (at the time) new hub Leipzig. This comprised planning for the transport of packages on 173x172 OnDs via train and Road Feeder Services while adhering to time constraints for pickup, delivery, slots @LEJ, etc. By that time, we completed the project without numerical optimization methods (as expected by the university). 
+
+However, I quickly realized that this is nothing but an optimization problem with many constraints, minimizing cost. Therefore it must be able to solve it systematically. 
+This is the long term aim of this project. In this context, I wrote a small program in 2018 using a Google API to measure the street distances for all ca. 30000 OnDs. 
+
+I have not worked on this problem for a longer time, and it is also not high priority as this is more of an operations research problem. However, I like modelling it and I plan on coming back to it once I have a better foundation in Data Science & AI methods. 
+
+## Project Modelling Ideas
 
 Overall, we're minimizing cost.
 Basically, for facilitation of the problem, I suggest a four step approach:
